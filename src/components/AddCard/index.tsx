@@ -18,7 +18,7 @@ export default function AddCard({ addCard }: { addCard: (title: string) => void 
       <Button
         flex="1"
         marginX="3"
-        bgColor="red.400"
+        bgColor="blue.400"
         color="white"
         onClick={() => {
           setTitle("");
