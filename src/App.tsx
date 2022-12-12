@@ -1,11 +1,11 @@
+import { Text } from "@chakra-ui/react";
+import KanbanBoard from "./components/Board";
 
-
-function App() {
-  
-
-  return (
-    <h1>teste</h1>
-  )
-}
-
-export default App
+export const App = () => (
+  <div>
+    <Text fontSize="2xl" padding="5" fontWeight="bold" fontStyle="italic">
+      Roda
+    </Text>
+    <KanbanBoard />
+  </div>
+);
